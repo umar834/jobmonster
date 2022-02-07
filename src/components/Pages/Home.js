@@ -4,8 +4,10 @@ import { SearchOutlined, FileDoneOutlined, CheckCircleOutlined } from '@ant-desi
 import NavBar from '../NavBar/NavBar'
 import MainBanner from '../Banners/MainBanner'
 import TripleColumn from '../Sections/TripleColumn'
+import ImageWithContent1 from '../Sections/ImageWithContent1'
 
 import TopBanner1 from '../../Images/jobmonster-top.png'
+import jobmonsterimage1 from '../../Images/person_with_laptop.png'
 
 const Home = props =>
 {
@@ -19,6 +21,11 @@ const Home = props =>
             icon2={FileDoneOutlined} title2="Apply" description2="If the advertisement is hosted by JobMonster it self then you can easily apply for that job through our Portal."
             icon3={CheckCircleOutlined} title3="Get Hired" description3="Win your dream job by completing the hiring process of recruter and start your new career."
             /> 
+            <ImageWithContent1 title="What's in JobMonster?" 
+            description="When you are searching for a job in Pakistan, you don't have many platforms that can help you 
+            to choose between a variety of jobs. Or if you are a recruiter then it is not easy to advertise and find the 
+            right candidate for your vacant position. jobMonster has an aim to provide all in one solution."
+            image={jobmonsterimage1} />
         </React.Fragment>
     );
 }
