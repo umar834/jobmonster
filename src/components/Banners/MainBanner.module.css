@@ -7,7 +7,6 @@
 }
 
 h1{
-    font-size: 3rem;
     color: white !important;
     padding-top: 40vh !important;
 }
@@ -22,10 +21,6 @@ h1{
 }
 
 @media screen and (max-width: 580px) {
-    h1
-    {
-        font-size: 2rem;
-    }
 
     .button 
     {
