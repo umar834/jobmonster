@@ -1,4 +1,5 @@
 import { Row, Col } from 'antd'
+import IconWithText from '../Singles/IconWithText';
 
 import styles from './TripleColumns.module.css'
 
@@ -9,25 +10,13 @@ const TripleColumn = props => {
             <h4 className={styles.subheading}>{props.subheading}</h4>
             <Row className={styles.row}>
                 <Col className={styles.column} xs={{span: 24}} md={{span: 7, offset: 1}}>
-                    {props.icon1 && 
-                    <props.icon1 />
-                    }
-                    <h4>{props.title1}</h4>
-                    <p>{props.description1}</p>
+                    <IconWithText icon={props.icon1} title={props.title1} description={props.description1} />
                 </Col>
                 <Col className={styles.column} xs={{span: 24}} md={{span: 7, offset: 1}}>
-                    { props.icon2 && 
-                     <props.icon2 />
-                    }
-                     <h4>{props.title2}</h4>
-                    <p>{props.description2}</p>
+                    <IconWithText icon={props.icon2} title={props.title2} description={props.description2} />
                 </Col>
                 <Col className={styles.column} xs={{span: 24}} md={{span: 7, offset: 1}}>
-                    {   props.icon3 && 
-                        <props.icon3 />
-                    }
-                     <h4>{props.title3}</h4>
-                    <p>{props.description3}</p>
+                    <IconWithText icon={props.icon3} title={props.title3} description={props.description3} />
                 </Col>
             </Row>
         </section>
