@@ -3,18 +3,28 @@
     padding: 5% 10%;
 }
 
-h2 
+.title 
 {
     text-align: left;
 }
 
-p 
+.description 
 {
     font-size: 1rem;
 }
 
-img 
+.img 
 {
     float: right;
-    width: 70%;
+    width: 60%;
+}
+
+@media screen and (max-width: 580px)
+{
+    .img 
+    {
+        float: none;
+        width: 100%;
+        margin: auto;
+    }
 }

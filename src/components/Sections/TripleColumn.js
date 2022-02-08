@@ -6,7 +6,7 @@ import styles from './TripleColumns.module.css'
 const TripleColumn = props => {
     return (
         <section className={styles.container}>
-            <h2>{props.heading}</h2>
+            <h2 className={styles.heading}>{props.heading}</h2>
             <h4 className={styles.subheading}>{props.subheading}</h4>
             <Row className={styles.row}>
                 <Col className={styles.column} xs={{span: 24}} md={{span: 7, offset: 1}}>
