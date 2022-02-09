@@ -6,17 +6,19 @@
 .title 
 {
     text-align: left;
+    font-weight: 400;
+    margin-bottom: 0;
 }
 
 .description 
 {
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .img 
 {
     float: right;
-    width: 60%;
+    width: 80%;
 }
 
 @media screen and (max-width: 580px)
@@ -26,5 +28,10 @@
         float: none;
         width: 100%;
         margin: auto;
+    }
+
+    .description 
+    {
+        font-size: 1rem;
     }
 }

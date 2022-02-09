@@ -7,7 +7,8 @@ import TripleColumn from '../Sections/TripleColumn'
 import ImageWithContent1 from '../Sections/ImageWithContent1'
 
 import TopBanner1 from '../../Images/jobmonster-top.png'
-import jobmonsterimage1 from '../../Images/person_with_laptop.png'
+import jobmonsterimage1 from '../../Images/person_with_laptop2.png'
+import SlopeBackground from '../Sections/SlopeBackground'
 
 const Home = props =>
 {
@@ -26,6 +27,10 @@ const Home = props =>
             to choose between a variety of jobs. Or if you are a recruiter then it is not easy to advertise and find the 
             right candidate for your vacant position. jobMonster has an aim to provide all in one solution."
             image={jobmonsterimage1} />
+            <SlopeBackground title="What we have for Recruiters"
+            description="To hire someone first of your worries are to get to the right candidates. 
+            JobMonster has an aim to help you find that right group to make recruitment process easier 
+            and to let you choose best candidate." />
         </React.Fragment>
     );
 }
