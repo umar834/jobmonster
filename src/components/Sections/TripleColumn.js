@@ -9,14 +9,14 @@ const TripleColumn = props => {
             <h2 className={styles.heading}>{props.heading}</h2>
             <hr className={styles.hr} />
             <h4 className={styles.subheading}>{props.subheading}</h4>
-            <Row className={styles.row}>
-                <Col className={styles.column} xs={{span: 24}} md={{span: 7, offset: 1}}>
+            <Row className={styles.row} justify="space-around">
+                <Col className={styles.column} xs={{span: 24}} md={{span: 7}}>
                     <IconWithText icon={props.icon1} title={props.title1} description={props.description1} />
                 </Col>
-                <Col className={styles.column} xs={{span: 24}} md={{span: 7, offset: 1}}>
+                <Col className={styles.column} xs={{span: 24}} md={{span: 7}}>
                     <IconWithText icon={props.icon2} title={props.title2} description={props.description2} />
                 </Col>
-                <Col className={styles.column} xs={{span: 24}} md={{span: 7, offset: 1}}>
+                <Col className={styles.column} xs={{span: 24}} md={{span: 7}}>
                     <IconWithText icon={props.icon3} title={props.title3} description={props.description3} />
                 </Col>
             </Row>

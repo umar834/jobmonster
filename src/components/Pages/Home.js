@@ -11,6 +11,7 @@ import TopBanner1 from '../../Images/jobmonster-top.png'
 import jobmonsterimage1 from '../../Images/person_with_laptop2.png'
 import SlopeBackground from '../Sections/SlopeBackground'
 import ContactUs from '../Sections/ContactUs';
+import MainFooter from '../Footer/MainFooter';
 
 const Home = props =>
 {
@@ -47,6 +48,7 @@ const Home = props =>
                 you as soon as possible."
                 button_title="Contact Us"
                 />
+            <MainFooter />
         </React.Fragment>
     );
 }
