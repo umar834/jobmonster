@@ -1,0 +1,51 @@
+.row 
+{
+    padding: 6% 10%;
+    background-color: #1890ff;
+}
+
+.row h2 
+{
+    color: white;
+    font-weight: 300;
+    margin: 0px;
+}
+
+.row p 
+{
+    color: white;
+    margin: 0px;
+}
+
+.row button 
+{
+    float: right;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 10px 40px;
+    color: #1890ff;
+    font-weight: 500;
+}
+
+.row button:hover 
+{
+    cursor: pointer;
+    border: 2px solid white;
+    background-color: #1890ff;
+    color: white;
+}
+
+@media screen and (max-width: 768px)
+{
+    .row button 
+    {
+        float: none;
+        margin-top: 30px;
+    }
+
+    .row 
+    {
+        padding: 10%;
+    }
+}
